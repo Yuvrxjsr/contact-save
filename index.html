@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale">
+        <meta name="author" content="Yuvraj Singh">
+        <meta name="description" content="web developer, web, developer,
+            front-end, html, css, javascript, react, sql">
+        <title>Contact saver</title>
+        <link rel="stylesheet" href="./assets/style/index.css">
+        <script src="./assets/script/index.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <main>
+                <div class="flex">
+                    <h1>My contacts</h1>
+                    <div id="contactForm">
+                        <form id="addContactForm">
+                            <input type="text" id="input" placeholder="Contact info (name, city, email)" required>
+                            <button type="button" onclick="addContact()">Add</button>
+                        </form>
+                    </div>
+                    <div id="contactsList" class="flex-container"></div>
+                    <p id="contactCount"></p>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
